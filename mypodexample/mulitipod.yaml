@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mymulitpod
+spec:
+  containers:
+  - name: myfirstcontainer
+    image: httpd
+  - name: mysecondcontainer
+    image: redis
+  - name: my3rdcontainer
+    image: rabbitmq:latest

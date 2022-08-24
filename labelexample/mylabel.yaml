@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webserverpod
+  namespace: default
+  labels:
+    app: web
+    type: nginx
+    user: idream
+    name: ashis
+    myapp: web
+spec:
+  containers:
+  - name: webservercontainer1
+    image: nginx:latest
