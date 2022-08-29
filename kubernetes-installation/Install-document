@@ -1,4 +1,5 @@
 script.sh we need to excute both master and slave mechine 
+ => sh script.sh
 
 MASTER
 =======================
